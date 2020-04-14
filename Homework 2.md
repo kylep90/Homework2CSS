@@ -18,6 +18,8 @@ Homework 2 was to create linked html pages using BootStrap. That have responsive
 
 * I creasted class <text-background> (line 70) in order for the text to be read clearly.
 
+<Question - I have a doubt about why my footer looks different on this page compared to the other two?>
+
 `contact.html`
 * Same stylesheets linked as in the index.html.
 
@@ -28,7 +30,7 @@ Homework 2 was to create linked html pages using BootStrap. That have responsive
 `style.css`
 * I have added cursor properties in line 23 and 83. This either changed the colour of text or the transparency of the image.
 
-* I added a media-querey to change the size of the carousel
+* I added a media-querey to change the size of the carousel.
 
 * I have used positioning in order to make a sticky footer as what was asked in the Bonus activities.
 

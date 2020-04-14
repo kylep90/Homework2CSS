@@ -53,7 +53,7 @@ footer{
     font-family: 'Special Elite', cursive;
     text-align: center;
 /*Bonus - Sticky Footer*/
-   position: fixed;
+   position: sticky;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -107,8 +107,8 @@ p{
 
   }
 
-  @media screen and (max-width: 768px ) {
-      h1 {
+  @media screen and (max-width: 700px ) {
+      *h1 {
           float: left;
       }
       
@@ -118,5 +118,6 @@ p{
       .carousel{
           width: auto;
       }
+
     }
      
