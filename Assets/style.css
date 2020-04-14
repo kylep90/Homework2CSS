@@ -52,6 +52,11 @@ footer{
     color: #ffc13b;
     font-family: 'Special Elite', cursive;
     text-align: center;
+/*Bonus - Sticky Footer*/
+   position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 
 
@@ -89,7 +94,7 @@ p{
   }
 
   .carousel {
-      width: auto;
+      width: 500px;
   }
 
 
@@ -110,27 +115,8 @@ p{
       .text-background {
           font-size: 11px;
       }
-      /*main{
-          margin: auto;
-      }
-      img {
-          height: 80px;
-          width: 80px;
-          float: left;
-      }
-
-      p{
-        line-height: 1.2em;
-        font-size: 12px;
-    }
-      .card-text{
-          margin-left: 100px;
+      .carousel{
           width: auto;
       }
-
-      .card-body {
-          width: 400px;
-
-      }
+    }
      
-  }*/
