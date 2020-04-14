@@ -1,0 +1,136 @@
+/*CSS for all html*/
+
+h1 {
+    color: #ffc13b;
+    font-family: 'Special Elite', cursive;
+    margin-left: 20%;
+}
+
+nav {
+    background-color: #1a2930;
+}
+body {
+  padding: 0px 20px;
+}
+.row {
+    padding: 15px;
+}
+.nav-link{
+    font-family: 'Special Elite', cursive;
+    color: #ffc13b;
+}
+/*Changes the colour of links when cursor is hovered*/
+.nav-link:hover{
+    color: white;
+}
+main {
+    background-color: #ffc13b;
+}
+
+.card {
+    margin: auto;
+}
+
+.card-title{    
+        
+        color: #ffc13b;
+        font-family: 'Special Elite', cursive;
+        text-decoration: underline;
+    }
+
+ .card-text{
+        margin-left: 220px;
+    
+    }
+
+a{   
+    float: right;
+}
+
+footer{
+    background-color: #1a2930;
+    color: #ffc13b;
+    font-family: 'Special Elite', cursive;
+    text-align: center;
+}
+
+
+
+
+/*CSS for index.html*/
+img{
+        width: 200px;
+        height: 200px;
+        float: left;
+}
+
+p{
+    line-height: 1.2em;
+    font-size: 16px;
+    letter-spacing: 0.1ex;
+}
+
+.socialmedia{
+    width: 30px;
+    height: 30px;
+}
+/*Changes the transparency of icons when cursor is hovered*/
+.socialmedia:hover {
+    opacity: 0.5;
+}
+
+
+  /*CSS for Portfolio*/
+
+  .text-background {
+    background-color: rgba(26, 41, 48, 0.7);
+    font-family: 'Special Elite', cursive;
+    color: #f5f0e1;
+  }
+
+  .carousel {
+      width: auto;
+  }
+
+
+/*CSS for Contact*/
+  .card-title, .form-group{
+      
+      color: #1e3d59;
+      font-family: 'Special Elite', cursive;
+      text-decoration: underline;
+
+  }
+
+  @media screen and (max-width: 768px ) {
+      h1 {
+          float: left;
+      }
+      
+      .text-background {
+          font-size: 11px;
+      }
+      /*main{
+          margin: auto;
+      }
+      img {
+          height: 80px;
+          width: 80px;
+          float: left;
+      }
+
+      p{
+        line-height: 1.2em;
+        font-size: 12px;
+    }
+      .card-text{
+          margin-left: 100px;
+          width: auto;
+      }
+
+      .card-body {
+          width: 400px;
+
+      }
+     
+  }*/
