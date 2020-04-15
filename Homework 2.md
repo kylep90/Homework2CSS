@@ -7,11 +7,10 @@ Homework 2 was to create linked html pages using BootStrap. That have responsive
 
 * Main - created class <card-text> (line 53) in order to modify the element using the ideal text size, spacing and line height.
 
-* I added a heigh of 100vh to both the container and card classes in order to make it fit the size of the screen. This is something new that I leant.
-
 * Created images that had links to my social media
 
 * <Question - Is there an easier way to create these links?>
+
 
 `portfolio.html`
 * As well as the files linked in the index.html, I also linked BootStrap CSS in order for the carousel to function.
@@ -29,6 +28,10 @@ Homework 2 was to create linked html pages using BootStrap. That have responsive
 
 `style.css`
 * I have added cursor properties in line 23 and 83. This either changed the colour of text or the transparency of the image.
+
+* I added a height of 73vh (viewer height) to both the card class in order to make it fit the size of the screen. This is something new that I leant.
+
+* <Question - Why is it when I made it 100vh, i still had a scroll bar show?>
 
 * I added a media-querey to change the size of the carousel and the footer on the index.html in order to see the social media icons. I believe this could be done better
 

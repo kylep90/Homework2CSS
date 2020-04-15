@@ -1,9 +1,8 @@
 /*CSS for all html*/
-html, body {
-    height:100%;
-    margin: 0px;
-}
 
+body {
+    padding: 0px 20px;
+}
 h1 {
     color: #ffc13b;
     font-family: 'Special Elite', cursive;
@@ -14,9 +13,7 @@ nav {
     background-color: #1a2930;
 }
 
-.container{
-    min-height: 100vh;
-}
+
 .row {
     padding: 15px;
 }
@@ -32,11 +29,12 @@ nav {
 
 main {
     background-color: #ffc13b;
+    min-height: 100%;
 }
 
 .card {
     margin: auto;
-    min-height: 100vh;
+    min-height: 73vh;
 }
 
 .card-title{    
@@ -48,7 +46,7 @@ main {
 
  .card-text{
         margin-left: 220px;
-    
+
     }
 
 a{   
@@ -61,7 +59,7 @@ footer{
     font-family: 'Special Elite', cursive;
     text-align: center;
 /*Bonus - Sticky Footer*/
-   position: fixed;
+   position: -webkit-sticky;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -87,6 +85,7 @@ p{
     width: 30px;
     height: 30px;
 }
+
 /*Changes the transparency of icons when cursor is hovered*/
 .socialmedia:hover {
     opacity: 0.5;
