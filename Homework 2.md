@@ -7,6 +7,8 @@ Homework 2 was to create linked html pages using BootStrap. That have responsive
 
 * Main - created class <card-text> (line 53) in order to modify the element using the ideal text size, spacing and line height.
 
+* I added a heigh of 100vh to both the container and card classes in order to make it fit the size of the screen. This is something new that I leant.
+
 * Created images that had links to my social media
 
 * <Question - Is there an easier way to create these links?>

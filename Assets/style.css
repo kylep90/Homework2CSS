@@ -1,4 +1,8 @@
 /*CSS for all html*/
+html, body {
+    height:100%;
+    margin: 0px;
+}
 
 h1 {
     color: #ffc13b;
@@ -9,8 +13,9 @@ h1 {
 nav {
     background-color: #1a2930;
 }
-body {
-  padding: 0px 20px;
+
+.container{
+    min-height: 100vh;
 }
 .row {
     padding: 15px;
@@ -19,16 +24,19 @@ body {
     font-family: 'Special Elite', cursive;
     color: #ffc13b;
 }
+
 /*Changes the colour of links when cursor is hovered*/
 .nav-link:hover{
     color: white;
 }
+
 main {
     background-color: #ffc13b;
 }
 
 .card {
     margin: auto;
+    min-height: 100vh;
 }
 
 .card-title{    
